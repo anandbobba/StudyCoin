@@ -9,11 +9,11 @@ import SubscribeSection from './components/SubscribeSection';
 import Footer from './components/footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-// Placeholder components for other pages
-import AboutUs from './pages/AboutUs'; // Create this component
-import Courses from './pages/Courses'; // Create this component
-import OurService from './pages/OurService'; // Create this component
-import ContactUs from './pages/ContactUs'; // Create this component
+// // Placeholder components for other pages
+// import AboutUs from './pages/AboutUs'; // Create this component
+// import Courses from './pages/Courses'; // Create this component
+// import OurService from './pages/OurService'; // Create this component
+// import ContactUs from './pages/ContactUs'; // Create this component
 
 function App() {
   return (

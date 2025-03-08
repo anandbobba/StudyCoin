@@ -1,23 +1,23 @@
 import React from 'react';
-import studycoinLogo from '../assets/studycoin.png'; // StudyCoin logo and name
+import studycoinLogo from '../assets/studycoin.png';
 
 const Footer = () => {
   return (
-    <div className="bg-amber-50 text-gray-800 py-6"> {/* Decreased padding for height */}
+    <div className="bg-amber-50 text-gray-800 py-6 px-4 md:px-8">
       {/* Footer Content */}
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-start">
+      <div className="container mx-auto">
+        <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between">
           {/* StudyCoin Logo on the Left */}
-          <div className="mb-6 md:mb-0 md:mr-8">
+          <div className="mb-6 md:mb-0 md:mr-8 flex justify-center md:justify-start">
             <img 
               src={studycoinLogo} 
               alt="StudyCoin Logo" 
-              className="w-40 h-auto" // Adjusted logo size
+              className="w-32 sm:w-40 h-auto"
             />
           </div>
 
           {/* All Content on the Right */}
-          <div className="flex-1 grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center md:text-left">
             {/* Company Column */}
             <div>
               <h3 className="text-lg font-bold mb-4">Company</h3>
@@ -54,7 +54,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li>+91 701-313-3517</li>
                 <li>200260053@info.ac.in</li>
-                <li>Student Residential Area, IT Bombay, Mumbai, MH, India– 400076</li>
+                <li>Student Residential Area, IT Bombay, Mumbai, MH, India – 400076</li>
               </ul>
             </div>
           </div>
