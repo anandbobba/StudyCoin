@@ -1,9 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import studyChainImage from '../assets/study-chain.png'; // Replace with your image path
 import studyTokenImage from '../assets/study-token.png'; // Replace with your image path
 import hexIdImage from '../assets/hex-id.png'; // Replace with your image path
 
 const TransformingLearning = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="flex flex-col items-center justify-center bg-gray-100 py-40">
       {/* Title Section */}
@@ -31,7 +34,10 @@ const TransformingLearning = () => {
           <p className="text-lg text-gray-700 mb-6">
             World’s First Blockchain Platform Rewarding Learning with Crypto!
           </p>
-          <button className="bg-primary-purple text-white px-6 py-3 rounded-full text-lg">
+          <button 
+            className="bg-primary-purple text-white px-6 py-3 rounded-full text-lg"
+          onClick={() => navigate('/Content')}
+          >
             Learn More
           </button>
         </div>
