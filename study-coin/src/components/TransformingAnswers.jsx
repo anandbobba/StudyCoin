@@ -55,7 +55,8 @@ const TransformingLearning = () => {
           <p className="text-lg text-gray-700 mb-6">
             $STUDY is the utility token rewarding students in a blockchain-powered education ecosystem.
           </p>
-          <button className="bg-primary-purple text-white px-6 py-3 rounded-full text-lg">
+          <button className="bg-primary-purple text-white px-6 py-3 rounded-full text-lg"onClick={() => navigate('/Content')}>
+         
             Learn More
           </button>
         </div>
@@ -73,7 +74,8 @@ const TransformingLearning = () => {
           <p className="text-lg text-gray-700 mb-6">
             Your unique on-chain learning profile to store and track your educational achievements.
           </p>
-          <button className="bg-primary-purple text-white px-6 py-3 rounded-full text-lg">
+          <button className="bg-primary-purple text-white px-6 py-3 rounded-full text-lg"
+          onClick={() => navigate('/Content')}>
             Learn More
           </button>
         </div>
