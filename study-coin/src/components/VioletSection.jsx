@@ -6,13 +6,12 @@ import exam5 from "../assets/exam5.png"; // Import exam5 image
 const VioletSection = () => {
   return (
     <div
-      className="absolute flex items-center bg-[#7E57C2] p-6 text-white font-sans shadow-lg space-x-6"
+      className="absolute hidden md:flex items-center bg-[#7E57C2] p-6 text-white font-sans shadow-lg space-x-6 rounded-lg" // Added rounded-lg
       style={{
         width: "1432px",
-        height: "170px",
-        top: "570px",
-        left: "160px",
-        borderRadius: "0", // Sharp edges (no rounded corners)
+        height: "140px",
+        top: "470px",
+        left: "210px",
       }}
     >
       {/* Section 1: Practice Your Skills */}

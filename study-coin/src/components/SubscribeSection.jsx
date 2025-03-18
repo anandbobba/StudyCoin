@@ -3,7 +3,7 @@ import React from 'react';
 const SubscribeSection = () => {
   return (
     <div 
-      className="flex flex-col items-center justify-center bg-violet-500 w-full px-4 py-10 md:h-[300px] md:w-[1200px] md:ml-auto md:mr-[260px]"
+      className="flex flex-col items-center justify-center bg-violet-500 w-full px-4 py-10 md:h-[300px] md:max-w-7xl mx-auto"
     >
       {/* Content Container */}
       <div className="text-center text-white max-w-2xl">

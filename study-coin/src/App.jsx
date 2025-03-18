@@ -7,7 +7,7 @@ import PremiumLearning from './components/PremiumLearning';
 import JoinCommunity from './components/CommunitySection';
 import SubscribeSection from './components/SubscribeSection';
 import Footer from './components/footer';
-import Content from './components/content'; // Import the new Content component
+import Content from './components/content'; // Ensure correct casing
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
