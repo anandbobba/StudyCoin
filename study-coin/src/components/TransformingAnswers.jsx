@@ -22,11 +22,11 @@ const TransformingLearning = () => {
       {/* Cards Section */}
       <div className="flex flex-col md:flex-row justify-center gap-8 w-full max-w-7xl">
         {/* Study Chain Card */}
-        <div className="bg-white rounded-lg text-center p-6 flex flex-col items-center shadow-lg">
+        <div className="bg-white rounded-lg text-center p-6 flex flex-col items-center shadow-lg w-full md:w-1/3">
           <img 
             src={studyChainImage} 
             alt="Study Chain" 
-            className="w-full max-w-xs object-cover rounded-t-lg mb-6" 
+            className="w-full h-48 object-contain mb-6" 
           />
           <h2 className="text-2xl font-bold text-black mb-4">STUDY CHAIN</h2>
           <p className="text-lg text-gray-700 mb-6">
@@ -41,11 +41,11 @@ const TransformingLearning = () => {
         </div>
 
         {/* Utility Token Card */}
-        <div className="bg-white rounded-lg text-center p-6 flex flex-col items-center shadow-lg">
+        <div className="bg-white rounded-lg text-center p-6 flex flex-col items-center shadow-lg w-full md:w-1/3">
           <img 
             src={studyTokenImage} 
             alt="Study Token" 
-            className="w-full max-w-xs object-cover rounded-t-lg mb-6" 
+            className="w-full h-48 object-contain mb-6" 
           />
           <h2 className="text-2xl font-bold text-black mb-4">#STUDY</h2>
           <p className="text-lg text-gray-700 mb-6">
@@ -60,11 +60,11 @@ const TransformingLearning = () => {
         </div>
 
         {/* HEX ID Card */}
-        <div className="bg-white rounded-lg text-center p-6 flex flex-col items-center shadow-lg">
+        <div className="bg-white rounded-lg text-center p-6 flex flex-col items-center shadow-lg w-full md:w-1/3">
           <img 
             src={hexIdImage} 
             alt="HEX ID" 
-            className="w-full max-w-xs object-cover rounded-t-lg mb-6" 
+            className="w-full h-48 object-contain mb-6" 
           />
           <h2 className="text-2xl font-bold text-black mb-4">HEX ID</h2>
           <p className="text-lg text-gray-700 mb-6">

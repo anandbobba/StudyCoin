@@ -6,12 +6,13 @@ import exam5 from "../assets/exam5.png"; // Import exam5 image
 const VioletSection = () => {
   return (
     <div
-      className="absolute hidden md:flex items-center bg-[#7E57C2] p-6 text-white font-sans shadow-lg space-x-6 rounded-lg" // Added rounded-lg
+      className="absolute hidden 2xl:flex items-center bg-[#7E57C2] p-6 text-white font-sans shadow-lg space-x-6 rounded-lg" // Use 2xl:flex to hide below 1500px
       style={{
-        width: "1432px",
-        height: "140px",
-        top: "470px",
-        left: "210px",
+        width: "1360px",
+        height: "130px",
+        top: "490px",
+        left: "50%",
+        transform: "translateX(-50%)", // Center horizontally
       }}
     >
       {/* Section 1: Practice Your Skills */}
